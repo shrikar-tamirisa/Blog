@@ -67,5 +67,8 @@ app.post("/login", function(req,res){
   }
 })
 
+app.get("/blog1", function(req,res){
+  res.render("blog1");
+})
 
 app.listen(process.env.PORT || 3000);
